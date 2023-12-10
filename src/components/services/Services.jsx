@@ -64,55 +64,18 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>SKILLS</h2>
+        
+          <h2>SKILLS & TECH STACK</h2>
           <p>
-            HTML CSS<br/>
-            REACT<br/>
-            JAVASCRIPT <br/>
-            JSX<br/>
-            RESPONSIVE WEB DEVELOPMENT<br/>
-            SaSS
-          </p>
-          
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>SKILLS</h2>
-          <p>
-          JIRA<br/>
-          VERSION CONTROL<br/>
-          FLEXBOX<br/>
-           MEDIA QUERIES<br/>
-          RESPONSIVE TYPOGRAPHY<br/>
-          </p>
-    
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>SKILLS</h2>
-          <p>
-            APIS<br/>
-            MANIPULATE THE DOM<br/>
-            ES6<br/>
-            MANAGING DATA FLOW<br/>
-            WORDPRESS<br/>
-          </p>
-         
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>TECK STACK</h2>
-          <p>
-            CHROME DEVTOOLS<br/>
-            GITHUB PAGES<br/>
-            ADOBE CREATIVE SUITE
-          </p>
+    <span>HTML&CSS | React  | JavaScript</span>
+    <span>JSX | Responsive Web Development</span>
+    <span>SaSS | JIRA | Version Control </span>
+    <span>Flexbox | Media Queries </span>
+    <span> APIs | Manipulate the DOM</span>
+    <span>ES6 |Managing Data Flow | WordPress</span>
+    <span>Chrome DevTools | GitHub Pages</span>
+    <span>Adobe Creative Suite | ResponsiveTypography</span>
+  </p>
           
         </motion.div>
       </motion.div>

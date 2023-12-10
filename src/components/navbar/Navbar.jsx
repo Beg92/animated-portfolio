@@ -13,8 +13,9 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-    
         </motion.span>
+        
+        
         <div className="social">
           <a href="https://www.linkedin.com/in/begumvernondeveloper/">
             <img src="./linkedin.png" target="_blank" alt="" />

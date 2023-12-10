@@ -66,7 +66,7 @@ const Single = ({ item }) => {
             <p>{item.desc}</p>
             <span className="skills"><b>Skills:</b> {item.skills}</span>
             <span className="tools"><b>Tools:</b> {item.tools}</span>
-            <a href={item.demoLink} target="_black" rel="noopener noreferrer">
+            <a href={item.demoLink} target="_blank" rel="noopener noreferrer">
             <Button>See Demo</Button></a>
           </motion.div>
          
