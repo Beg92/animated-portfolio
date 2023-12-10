@@ -1,0 +1,33 @@
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: #0c0c1d;
+  color: lightgray;
+  overflow-x: hidden;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  height: 100vh;
+  width: 98vw;
+  padding: 20px;
+  margin: 0;
+  scroll-snap-align: center;
+  overflow: hidden;
+}/*# sourceMappingURL=app.css.map */
