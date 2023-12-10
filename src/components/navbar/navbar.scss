@@ -3,6 +3,28 @@
 .navbar {
   height: 100px;
 
+  .resume-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    .resume-button {
+      display: inline-block;
+      padding: 8px 16px; /* Adjust padding to make the button smaller */
+      background-color: blueviolet;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: darkviolet;
+      }
+    }
+  }
+
   .wrapper {
     max-width: 1366px;
     margin: auto;
@@ -12,8 +34,17 @@
     height: 100%;
 
     @include mobile {
-      justify-content: flex-end;
+      flex-direction: column; // Stack items vertically on mobile
+      justify-content: center;
       padding: 20px;
+
+      .resume-link {
+        margin-bottom: 20px; // Add margin between the resume button and social icons
+      }
+
+      .resume-button {
+        font-size: 14px; /* Adjust font size to make the button text smaller */
+      }
     }
 
     span {
@@ -23,7 +54,7 @@
         display: none;
       }
     }
-  
+
     .social {
       display: flex;
       gap: 20px;

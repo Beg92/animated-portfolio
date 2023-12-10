@@ -46,6 +46,7 @@ section {
 }
 @media (max-width: 738px) {
   .portfolio .progress {
+    position: relative;
     padding-top: calc(100vh - 100px);
     font-size: 24px;
   }
@@ -130,7 +131,7 @@ section {
   }
 }
 .portfolio .container .wrapper .textContainer .skills {
-  line-height: 1.2;
+  line-height: 1;
 }
 .portfolio .container .wrapper .textContainer .tools {
   line-height: 0;

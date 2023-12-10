@@ -51,6 +51,9 @@ section {
   justify-content: center;
   gap: 40px;
 }
+.hero .wrapper .textContainer h3 {
+  font-size: 14px;
+}
 @media (max-width: 738px) {
   .hero .wrapper .textContainer {
     height: 50%;
