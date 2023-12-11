@@ -76,7 +76,7 @@ const Hero = () => {
         React JavaScript SaSS HTML CSS 
       </motion.div>
       <div className="imageContainer">
-        <img src="./hero.jpg" alt="" />
+        <img src="./hero.png" alt="" />
       </div>
     </div>
   );
