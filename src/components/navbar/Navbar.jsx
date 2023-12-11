@@ -4,8 +4,6 @@ import "./navbar.scss";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
-  const resumeFileName = "resume.pdf"; 
-
   return (
     <div className="navbar">
       {/* Sidebar */}
@@ -16,13 +14,6 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         ></motion.span>
-
-        <div className="resume-link">
-         <a href="./resume.pdf" download className="resume-button">
-               Download Resume
-          </a>
-        </div>
-
 
         <div className="social">
           <a href="https://www.linkedin.com/in/begumvernondeveloper/">

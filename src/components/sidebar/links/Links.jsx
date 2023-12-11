@@ -25,13 +25,17 @@ const itemVariants = {
 };
 
 const Links = () => {
-  const items = ["Homepage", "Services", "Portfolio", "Contact"];
+  const items = ["Homepage", "Services", "Portfolio", "Contact", "Resume"];
+
+  // Add your resume file name
+  const resumeFileName = "resume.pdf";
 
   return (
     <motion.div className="links" variants={variants}>
       {items.map((item) => (
         <motion.a
-          href={`#${item}`}
+          href={item === "Resume" ? `./${resumeFileName}` : `#${item}`}
+          download={item === "Resume"}
           key={item}
           variants={itemVariants}
           whileHover={{ scale: 1.1 }}
