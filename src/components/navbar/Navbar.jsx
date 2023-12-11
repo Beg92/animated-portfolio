@@ -4,7 +4,7 @@ import "./navbar.scss";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
-  const resumeFileName = "resume.pdf"; // Replace with your actual resume file name
+  const resumeFileName = "resume.pdf"; 
 
   return (
     <div className="navbar">
@@ -18,7 +18,7 @@ const Navbar = () => {
         ></motion.span>
 
         <div className="resume-link">
-         <a href="/resume.pdf" download className="resume-button">
+         <a href="./resume.pdf" download className="resume-button">
                Download Resume
           </a>
         </div>
