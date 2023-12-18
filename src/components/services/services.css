@@ -137,11 +137,14 @@ section {
   display: flex;
   max-width: 1366px;
   margin: auto;
+  flex-direction: column;
+  align-items: center;
+  background-color: none;
 }
 .services .listContainer h2 {
   text-align: center;
   font-size: 1.5rem;
-  margin-bottom: 10px;
+  margin-top: -100px;
   color: white;
 }
 .services .listContainer p {
@@ -150,23 +153,29 @@ section {
   color: white;
   margin: 0;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   gap: 10px;
 }
 .services .listContainer span {
-  text-align: left;
-  display: inline-block;
-  width: calc(33.33% - 10px);
-  padding: 8px 12px;
-  margin: 0;
-  border: 1px solid #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(25% - 20px);
+  height: 60px;
+  padding: 10px;
+  border: 2px solid #fff;
   border-radius: 10px;
   box-sizing: border-box;
   overflow: hidden;
-  white-space: nowrap;
-  text-overflow: inherit;
+  white-space: normal;
+  transition: transform 0.3s ease-in-out;
+}
+.services .listContainer span:hover {
+  background-color: purple;
+  border-color: purple;
+  color: white;
 }
 @media (max-width: 738px) {
   .services .listContainer {

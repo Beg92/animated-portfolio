@@ -20,7 +20,7 @@ const items = [
     title: "Zero Waste Recipes",
     img:"./zero-waste.png",
     desc: "A Responsive Website provides you with recipes based on the ingredients that you already have at home, eliminating food waste!",
-    skills: "SaaS , REST APIs , DOM Manipulation ,Vanilla JavaScript ,Mobile First Design,Media Queries ,ES6 , GitHub",
+    skills: "Sass , REST APIs , DOM Manipulation ,Vanilla JavaScript ,Mobile First Design,Media Queries ,ES6 , GitHub",
     tools:"VS Code, GitHub",
     demoLink:"https://chingu-voyages.github.io/v46-tier1-team-06/"
   },

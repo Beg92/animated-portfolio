@@ -71,4 +71,8 @@ section {
 .navbar .wrapper .social img {
   width: 18px;
   height: 18px;
+}
+.navbar .wrapper .social:hover img {
+  transform: scale(1.2); /* Scale up on hover for the shiny effect */
+  filter: brightness(1.5); /* Adjust brightness for a shiny look */
 }/*# sourceMappingURL=navbar.css.map */

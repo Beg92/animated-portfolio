@@ -55,26 +55,36 @@ const Services = () => {
             <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
           </h1>
           <a href="https://github.com/Beg92" target="_blank">
-          <Button>Find Out More Work</Button>
+          <Button>Find More Work on My GitHub</Button>
           </a>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
         <motion.div
           className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
+      
         >
-        
           <h2>SKILLS & TECH STACK</h2>
           <p>
-    <span>HTML&CSS | React  | JavaScript</span>
-    <span>JSX | Responsive Web Development</span>
-    <span>SaSS | JIRA | Version Control </span>
-    <span>Flexbox | Media Queries </span>
-    <span> APIs | Manipulate the DOM</span>
-    <span>ES6 |Managing Data Flow | WordPress</span>
-    <span>Chrome DevTools | GitHub Pages</span>
-    <span>Adobe Creative Suite | ResponsiveTypography</span>
+    <span>HTML&CSS  </span>
+    <span>React</span>
+    <span> JavaScript</span>
+    <span>JSX</span>
+    <span>Responsive Web Development</span>
+    <span>Sass </span>
+    <span>JIRA </span>
+    <span> Version Control </span>
+    <span>Flexbox </span>
+    <span>Media Queries </span>
+    <span> APIs </span>
+    <span>Manipulate the DOM</span>
+    <span>ES6</span>
+    <span>Managing Data Flow </span>
+    <span>WordPress</span>
+    <span>Chrome DevTools </span>
+    <span> GitHub Pages</span>
+    <span>ResponsiveTypography</span>
+    <span>Adobe Creative Suite </span>
   </p>
           
         </motion.div>
