@@ -47,6 +47,35 @@ section {
     flex-direction: column;
   }
 }
+.contact .item .resume-btn {
+  background-color: purple;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+.contact .item .resume-btn:before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.2), transparent);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.contact .item .resume-btn:hover {
+  background-color: #8a2be2;
+  box-shadow: 0 0 10px rgba(138, 43, 226, 0.7);
+}
+.contact .item .resume-btn:hover:before {
+  opacity: 1;
+}
 .contact .textContainer {
   flex: 1;
   display: flex;

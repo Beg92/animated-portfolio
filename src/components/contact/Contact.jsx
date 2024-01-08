@@ -88,6 +88,11 @@ const Contact = () => {
         <motion.div className="item" variants={variants}>
           <h2>Address</h2>
           <span>Orange County, CA</span>
+          <br/>
+          <br/>
+          <a href="./resume.pdf" download>
+            <Button className="resume-btn">Download Resume</Button>
+          </a>
         </motion.div>
       </motion.div>
       <div className="formContainer">

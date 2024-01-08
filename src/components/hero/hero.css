@@ -52,7 +52,9 @@ section {
   gap: 40px;
 }
 .hero .wrapper .textContainer h3 {
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
 }
 @media (max-width: 738px) {
   .hero .wrapper .textContainer {
