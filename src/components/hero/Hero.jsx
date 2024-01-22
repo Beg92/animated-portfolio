@@ -51,14 +51,9 @@ const Hero = () => {
           <motion.h1 variants={textVariants}>
           Front-end React Web Developer
           </motion.h1>
-          <motion.h3>
-          A skilled Front-end Developer with expertise in creating mobile-friendly
-          web projects by seamlessly integrating UI design and React.js. 
-          Possessing a keen eye for recognizing opportunities to elevate front-end design,
-          I am committed to enhancing user experiences across various platforms. 
-          Explore my recent projects encompassing React.js, Vanilla JS, Vite.js, Three.js, and more.
-          </motion.h3>
-          
+    <motion.h3>
+      A skilled Front-End Developer with expertise in creating mobile-friendly web projects by seamlessly integrating UI design and React.js. Possessing a keen eye for recognizing opportunities to elevate Front-End Design. I am committed to enhancing user experiences across various platforms. Explore my recent projects encompassing React.js, Vanilla JS, Vite.js, Three.js, and more.
+    </motion.h3>
           <motion.img
             variants={textVariants}
             animate="scrollButton"

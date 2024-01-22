@@ -15,8 +15,17 @@ const items = [
     tools:"VS Code, GitHub",
     demoLink:"https://beg92.github.io/shopping-react-app/"
   },
-  {
+   {
     id: 2,
+    title: "Larush Beauty ",
+    img: "./larush.JPG",
+    desc: "Permanent Makeup Studio Website for the client who requested to use real time pictures on the pink website.",
+    skills:"Vanilla JavaScript, ,Saas,,ES6,Manipulate DOM,Mobile-First Design,Web Hosting",
+    tools:"VS Code, GitHub, Hosting",
+    demoLink:"https://www.larushbeauty.com/"
+  },
+  {
+    id: 3,
     title: "Zero Waste Recipes",
     img:"./zero-waste.png",
     desc: "A Responsive Website provides you with recipes based on the ingredients that you already have at home, eliminating food waste!",
@@ -25,7 +34,7 @@ const items = [
     demoLink:"https://chingu-voyages.github.io/v46-tier1-team-06/"
   },
   {
-    id: 3,
+    id: 4,
     title: "Guess The Word",
     img: "./guess_word.png",
     desc: "Players needs to enter one letter at a time to guess word before 8 letters. If they guesses the word they win the game otherwise it restarts with new word. Check it out and try yourself ! 😁",
@@ -35,7 +44,7 @@ const items = [
     
   },
   {
-    id: 4,
+    id: 5,
     title: "Super Sticky Notes",
     img: "./super_notes.png",
     desc: "Greenfield project created Sticky Notes App. I used JSX and CSS most for this project. You can track to-do items with this app. You can create as many as you want.",
